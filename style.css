@@ -40,6 +40,7 @@ a{
 .TV{
     display: flex;
     background-color: #F5F5F7;
+    flex-direction: column;
 
 }
 
@@ -50,15 +51,69 @@ a{
     align-content: center;
     flex-direction: column;
     margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
 
       
 }
 
 .tvmages h2{
     color:#86868B;
-    margin-left: 23%;
-    margin-right: 23%;
+    margin-bottom: 5%;
+    font-size: 24px;
 }
+
+.productos_fila1{
+    display: flex;
+    padding: 250px;
+   
+}
+
+.columna{
+    display: flex;
+    flex-direction: row;
+
+   
+}
+
+.columna1{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 2%;
+    justify-content: center;
+    align-items: center;
+    font-family: arial,sans-serif;
+    
+}
+
+.columna2{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    border-radius: 2%;
+    justify-content: center;
+    align-items: center;
+    font-family: arial,sans-serif;
+
+}
+
+.mmg{
+    color:#0071E3;
+}
+
+button{
+    border-radius: 15px;
+    background-color: rgb(41, 151, 255);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+   
 
 
 
